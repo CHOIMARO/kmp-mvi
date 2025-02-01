@@ -1,0 +1,384 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [:shared] /Users/maro/kmp_test/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/d4c615f45efba570265319b426550272/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.insert-koin:koin-android:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/8026de5ed88a5efdf002b255d3766d57/transformed/koin-android-4.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:data] /Users/maro/kmp_test/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:domain] /Users/maro/kmp_test/domain/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:ui] /Users/maro/kmp_test/ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/maro/.gradle/caches/8.9/transforms/7216d9938916ba67b70d73fe49c6be77/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/da30a2485b0d6267d58c5ec44c286c55/transformed/navigation-common-ktx-2.8.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/e1984a193175309204fd8019170bde3d/transformed/navigation-runtime-2.8.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/221c30542d8db487a7807594f3c192a3/transformed/navigation-common-2.8.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/cbd1fa544ffc2a7913ab0dee054896af/transformed/navigation-runtime-ktx-2.8.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/a161e3caa2b1cebd426390b3723a9fe6/transformed/navigation-compose-2.8.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.0] /Users/maro/.gradle/caches/8.9/transforms/6868f077ee121b3112861f205a8f585d/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /Users/maro/.gradle/caches/8.9/transforms/5e4884c24c4be791b2f1d4b8b135ef20/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/e6feaa9ceea37f4f0db92f2afd965861/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/3ce91be13adc86da5c868eb9503c143d/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/bf1e4cc465982931fe8dbb8411213571/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/d6658fae91962d97e67271a7511929f9/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/60c28c426750fa26da148f95aa1c0069/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/4c35d47216cbffc233fbeb1ac13e9568/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/f88a39b620a30f5729865d63ed9751a9/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/20d6a3bfcefb8f31a5da2f0370a42b0e/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/3090afa9f07b2389eb85a37d9a316002/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/66f9c6d15740371690504e0d253f8e57/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/2546638f47a2237c477f37675bc24df5/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/c43e4a64ca6a996b5dc104a4ab682b0f/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/48b9f16c1af40088566ff109d9bf5aa5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/c0faf6bd971b2555af07e6c48e099fd1/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.8.3] /Users/maro/.gradle/caches/8.9/transforms/f73e82619313d60d9cccefc78c12a797/transformed/fragment-1.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.3] /Users/maro/.gradle/caches/8.9/transforms/34e564e5d7455e7705938e4d3a850bc9/transformed/fragment-ktx-1.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/ca5f11ef9328e1d6cef82da126bf10cd/transformed/activity-ktx-1.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/40ea1d67c6728a02d42b517a7d5877f2/transformed/activity-1.10.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/35748cb99cb3ac89b86da2ab6e272fec/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/maro/.gradle/caches/8.9/transforms/429b1e62c249fa7328c151551e74cd66/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/maro/.gradle/caches/8.9/transforms/e4226cda7be51d04b7ce0f2f5825e72c/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/537d5f4544551c73a8a70ede4045be48/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] /Users/maro/.gradle/caches/8.9/transforms/cacc54709cfb0f27ac826c9e181f0161/transformed/core-bundle-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/c54b772ad2ffc9627deb0d5b6e0f9646/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/a28f4a4e8be3eff26a273057f2dc1b9f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/67141c4a640c364603de7fd72b46b5d9/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maro/.gradle/caches/8.9/transforms/3565def12bf686e3f7ee463b159cc634/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maro/.gradle/caches/8.9/transforms/b3b744ff3949b71b696405b3c9785581/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/222716fbb2c75e8ac0ab45adc1a199ad/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/69699003a6378bf2f70de05e6d97d9f2/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/5182d3afc3e10455a17bb6edfbd101b3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/maro/.gradle/caches/8.9/transforms/a08b28421dbb4a9fc756aa5ba06c23df/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/b706f3a13ee7ac8eef8bc0b2fdb1794e/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/c181d7b00ee2cb6ff19b3a4906292ee5/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/333be5e28a6d0a442894a265529501c4/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/d66dc506541d7c21df31bd84e7f899da/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/fcd98ad30542a91ec357392e6b59acc3/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/6c6b1fff0036dcf3eac9aa018d1a75ae/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/834c430a36b144f47971df9d1865e6ed/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/655f5aab8e73bb67b24991cd38c5d9af/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/9e707e2b9c43c3c8ac255120f97cb9a8/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/c2d5ef12cbc8bbce388421bfa61912cb/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/0d4c847886c027e4c3dfc850922e6186/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/fd1785416ca1472e9196a8fdcd2cbae5/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/caeed39575d1e96dcfc97e80b853c01e/transformed/activity-compose-1.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/05a943a35d9bdeb84a38361a3f588ef5/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/dd2e19149efd53a879b8671f5a807b80/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/maro/.gradle/caches/8.9/transforms/3d91668ccfe84636ce712420bfa00c03/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/461a33e7d9d348fa8e4152eba82986ac/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/maro/.gradle/caches/8.9/transforms/909dfacf85eb1725665fa56e457ee9f8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/f01b16733d22ea73bb9d508d322b787f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/b28ad6ab47f98bc576f4b2bee6855a05/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/maro/.gradle/caches/8.9/transforms/46834cc47c1694df5ed0009cfdd9287f/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/5c352633abe26876f5c747beb749940d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+	package
+		INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:4:5-17:19
+INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:4:5-17:19
+MERGED from [io.insert-koin:koin-android:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/8026de5ed88a5efdf002b255d3766d57/transformed/koin-android-4.0.0/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/8026de5ed88a5efdf002b255d3766d57/transformed/koin-android-4.0.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/b28ad6ab47f98bc576f4b2bee6855a05/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/b28ad6ab47f98bc576f4b2bee6855a05/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/5c352633abe26876f5c747beb749940d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/5c352633abe26876f5c747beb749940d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:7:9-35
+	android:allowBackup
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:6:9-36
+	android:theme
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:8:9-40
+	android:name
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:5:9-43
+activity#com.company.kmp_test.android.MainActivity
+ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:9:9-16:20
+	android:exported
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/maro/kmp_test/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/maro/kmp_test/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/d4c615f45efba570265319b426550272/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/d4c615f45efba570265319b426550272/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/8026de5ed88a5efdf002b255d3766d57/transformed/koin-android-4.0.0/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:4.0.0] /Users/maro/.gradle/caches/8.9/transforms/8026de5ed88a5efdf002b255d3766d57/transformed/koin-android-4.0.0/AndroidManifest.xml:5:5-44
+MERGED from [:data] /Users/maro/kmp_test/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:data] /Users/maro/kmp_test/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:domain] /Users/maro/kmp_test/domain/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:domain] /Users/maro/kmp_test/domain/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:ui] /Users/maro/kmp_test/ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:ui] /Users/maro/kmp_test/ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/maro/.gradle/caches/8.9/transforms/7216d9938916ba67b70d73fe49c6be77/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/maro/.gradle/caches/8.9/transforms/7216d9938916ba67b70d73fe49c6be77/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/da30a2485b0d6267d58c5ec44c286c55/transformed/navigation-common-ktx-2.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/da30a2485b0d6267d58c5ec44c286c55/transformed/navigation-common-ktx-2.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/e1984a193175309204fd8019170bde3d/transformed/navigation-runtime-2.8.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/e1984a193175309204fd8019170bde3d/transformed/navigation-runtime-2.8.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/221c30542d8db487a7807594f3c192a3/transformed/navigation-common-2.8.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/221c30542d8db487a7807594f3c192a3/transformed/navigation-common-2.8.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/cbd1fa544ffc2a7913ab0dee054896af/transformed/navigation-runtime-ktx-2.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/cbd1fa544ffc2a7913ab0dee054896af/transformed/navigation-runtime-ktx-2.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/a161e3caa2b1cebd426390b3723a9fe6/transformed/navigation-compose-2.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0-rc01] /Users/maro/.gradle/caches/8.9/transforms/a161e3caa2b1cebd426390b3723a9fe6/transformed/navigation-compose-2.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.0] /Users/maro/.gradle/caches/8.9/transforms/6868f077ee121b3112861f205a8f585d/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.0] /Users/maro/.gradle/caches/8.9/transforms/6868f077ee121b3112861f205a8f585d/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /Users/maro/.gradle/caches/8.9/transforms/5e4884c24c4be791b2f1d4b8b135ef20/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /Users/maro/.gradle/caches/8.9/transforms/5e4884c24c4be791b2f1d4b8b135ef20/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/e6feaa9ceea37f4f0db92f2afd965861/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/e6feaa9ceea37f4f0db92f2afd965861/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/3ce91be13adc86da5c868eb9503c143d/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/3ce91be13adc86da5c868eb9503c143d/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/bf1e4cc465982931fe8dbb8411213571/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/bf1e4cc465982931fe8dbb8411213571/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/d6658fae91962d97e67271a7511929f9/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/d6658fae91962d97e67271a7511929f9/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/60c28c426750fa26da148f95aa1c0069/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/60c28c426750fa26da148f95aa1c0069/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/4c35d47216cbffc233fbeb1ac13e9568/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/4c35d47216cbffc233fbeb1ac13e9568/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/f88a39b620a30f5729865d63ed9751a9/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/f88a39b620a30f5729865d63ed9751a9/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/20d6a3bfcefb8f31a5da2f0370a42b0e/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/20d6a3bfcefb8f31a5da2f0370a42b0e/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/3090afa9f07b2389eb85a37d9a316002/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/3090afa9f07b2389eb85a37d9a316002/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/66f9c6d15740371690504e0d253f8e57/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/66f9c6d15740371690504e0d253f8e57/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/2546638f47a2237c477f37675bc24df5/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/2546638f47a2237c477f37675bc24df5/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/c43e4a64ca6a996b5dc104a4ab682b0f/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/c43e4a64ca6a996b5dc104a4ab682b0f/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/48b9f16c1af40088566ff109d9bf5aa5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/48b9f16c1af40088566ff109d9bf5aa5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/c0faf6bd971b2555af07e6c48e099fd1/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/maro/.gradle/caches/8.9/transforms/c0faf6bd971b2555af07e6c48e099fd1/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.3] /Users/maro/.gradle/caches/8.9/transforms/f73e82619313d60d9cccefc78c12a797/transformed/fragment-1.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.3] /Users/maro/.gradle/caches/8.9/transforms/f73e82619313d60d9cccefc78c12a797/transformed/fragment-1.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.3] /Users/maro/.gradle/caches/8.9/transforms/34e564e5d7455e7705938e4d3a850bc9/transformed/fragment-ktx-1.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.3] /Users/maro/.gradle/caches/8.9/transforms/34e564e5d7455e7705938e4d3a850bc9/transformed/fragment-ktx-1.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/ca5f11ef9328e1d6cef82da126bf10cd/transformed/activity-ktx-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/ca5f11ef9328e1d6cef82da126bf10cd/transformed/activity-ktx-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/40ea1d67c6728a02d42b517a7d5877f2/transformed/activity-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/40ea1d67c6728a02d42b517a7d5877f2/transformed/activity-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/35748cb99cb3ac89b86da2ab6e272fec/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/35748cb99cb3ac89b86da2ab6e272fec/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/maro/.gradle/caches/8.9/transforms/429b1e62c249fa7328c151551e74cd66/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/maro/.gradle/caches/8.9/transforms/429b1e62c249fa7328c151551e74cd66/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/maro/.gradle/caches/8.9/transforms/e4226cda7be51d04b7ce0f2f5825e72c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/maro/.gradle/caches/8.9/transforms/e4226cda7be51d04b7ce0f2f5825e72c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/537d5f4544551c73a8a70ede4045be48/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/537d5f4544551c73a8a70ede4045be48/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] /Users/maro/.gradle/caches/8.9/transforms/cacc54709cfb0f27ac826c9e181f0161/transformed/core-bundle-debug/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] /Users/maro/.gradle/caches/8.9/transforms/cacc54709cfb0f27ac826c9e181f0161/transformed/core-bundle-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/c54b772ad2ffc9627deb0d5b6e0f9646/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/c54b772ad2ffc9627deb0d5b6e0f9646/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/a28f4a4e8be3eff26a273057f2dc1b9f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/a28f4a4e8be3eff26a273057f2dc1b9f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/67141c4a640c364603de7fd72b46b5d9/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/67141c4a640c364603de7fd72b46b5d9/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maro/.gradle/caches/8.9/transforms/3565def12bf686e3f7ee463b159cc634/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maro/.gradle/caches/8.9/transforms/3565def12bf686e3f7ee463b159cc634/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maro/.gradle/caches/8.9/transforms/b3b744ff3949b71b696405b3c9785581/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maro/.gradle/caches/8.9/transforms/b3b744ff3949b71b696405b3c9785581/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/222716fbb2c75e8ac0ab45adc1a199ad/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/222716fbb2c75e8ac0ab45adc1a199ad/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/69699003a6378bf2f70de05e6d97d9f2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/69699003a6378bf2f70de05e6d97d9f2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/5182d3afc3e10455a17bb6edfbd101b3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/5182d3afc3e10455a17bb6edfbd101b3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/maro/.gradle/caches/8.9/transforms/a08b28421dbb4a9fc756aa5ba06c23df/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/maro/.gradle/caches/8.9/transforms/a08b28421dbb4a9fc756aa5ba06c23df/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/b706f3a13ee7ac8eef8bc0b2fdb1794e/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/b706f3a13ee7ac8eef8bc0b2fdb1794e/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/c181d7b00ee2cb6ff19b3a4906292ee5/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/c181d7b00ee2cb6ff19b3a4906292ee5/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/333be5e28a6d0a442894a265529501c4/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/333be5e28a6d0a442894a265529501c4/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/d66dc506541d7c21df31bd84e7f899da/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/d66dc506541d7c21df31bd84e7f899da/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/fcd98ad30542a91ec357392e6b59acc3/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/fcd98ad30542a91ec357392e6b59acc3/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/6c6b1fff0036dcf3eac9aa018d1a75ae/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/6c6b1fff0036dcf3eac9aa018d1a75ae/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/834c430a36b144f47971df9d1865e6ed/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/834c430a36b144f47971df9d1865e6ed/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/655f5aab8e73bb67b24991cd38c5d9af/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/655f5aab8e73bb67b24991cd38c5d9af/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/9e707e2b9c43c3c8ac255120f97cb9a8/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/9e707e2b9c43c3c8ac255120f97cb9a8/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/c2d5ef12cbc8bbce388421bfa61912cb/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/c2d5ef12cbc8bbce388421bfa61912cb/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/0d4c847886c027e4c3dfc850922e6186/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/0d4c847886c027e4c3dfc850922e6186/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/fd1785416ca1472e9196a8fdcd2cbae5/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/fd1785416ca1472e9196a8fdcd2cbae5/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/caeed39575d1e96dcfc97e80b853c01e/transformed/activity-compose-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.0] /Users/maro/.gradle/caches/8.9/transforms/caeed39575d1e96dcfc97e80b853c01e/transformed/activity-compose-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/05a943a35d9bdeb84a38361a3f588ef5/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/05a943a35d9bdeb84a38361a3f588ef5/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/dd2e19149efd53a879b8671f5a807b80/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/dd2e19149efd53a879b8671f5a807b80/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/maro/.gradle/caches/8.9/transforms/3d91668ccfe84636ce712420bfa00c03/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/maro/.gradle/caches/8.9/transforms/3d91668ccfe84636ce712420bfa00c03/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/461a33e7d9d348fa8e4152eba82986ac/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/461a33e7d9d348fa8e4152eba82986ac/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/maro/.gradle/caches/8.9/transforms/909dfacf85eb1725665fa56e457ee9f8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/maro/.gradle/caches/8.9/transforms/909dfacf85eb1725665fa56e457ee9f8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/f01b16733d22ea73bb9d508d322b787f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maro/.gradle/caches/8.9/transforms/f01b16733d22ea73bb9d508d322b787f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/b28ad6ab47f98bc576f4b2bee6855a05/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/b28ad6ab47f98bc576f4b2bee6855a05/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/maro/.gradle/caches/8.9/transforms/46834cc47c1694df5ed0009cfdd9287f/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/maro/.gradle/caches/8.9/transforms/46834cc47c1694df5ed0009cfdd9287f/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/5c352633abe26876f5c747beb749940d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/5c352633abe26876f5c747beb749940d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/maro/kmp_test/androidApp/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/b28ad6ab47f98bc576f4b2bee6855a05/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/maro/.gradle/caches/8.9/transforms/b28ad6ab47f98bc576f4b2bee6855a05/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/maro/.gradle/caches/8.9/transforms/b908723734e7cb3c5ae503629c3084cc/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#com.company.kmp_test.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#com.company.kmp_test.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/maro/.gradle/caches/8.9/transforms/2d333661ac70ec6c3e068dfbe09ae599/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/maro/.gradle/caches/8.9/transforms/7c2846fec8e3789934a2d483b2762dc0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/maro/.gradle/caches/8.9/transforms/b434a2f87d1f3324c1cb812d3ca9a899/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/maro/.gradle/caches/8.9/transforms/7a5a95b920c03478600d22fd2afb54e5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
