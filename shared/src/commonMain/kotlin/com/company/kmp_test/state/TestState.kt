@@ -1,27 +1,27 @@
 package com.company.kmp_test.state
 
-import com.company.kmp_test.base.UiIntent
-import com.company.kmp_test.base.UiSideEffect
-import com.company.kmp_test.base.UiState
+import com.company.kmp_test.base.Intent
+import com.company.kmp_test.base.SideEffect
+import com.company.kmp_test.base.State
 
 /**
  * @author maro
  * @since 2025. 1. 28.
  */
-data class PostState(
+data class TestState(
     val isLoading: Boolean,
     val getName: String
-): UiState() {
+): State() {
     companion object {
-        fun init() = PostState(getName = "", isLoading = false)
+        fun init() = TestState(getName = "", isLoading = false)
     }
 }
 
-sealed class PostIntent : UiIntent() {
-    data object OnClick: PostIntent()
+sealed class TestIntent : Intent() {
+    data object OnClick: TestIntent()
 }
 
-sealed class PostSideEffect: UiSideEffect() {
-    data object ShowErrorToast: PostSideEffect()
-    data class ShowToast(val message: String) : PostSideEffect()
+sealed class TestSideEffect: SideEffect() {
+    data object ShowErrorToast: TestSideEffect()
+    data class ShowToast(val message: String) : TestSideEffect()
 }

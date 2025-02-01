@@ -1,12 +1,11 @@
 package com.company.kmp_test.viewmodel
 
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.company.domain.usecase.GetNameUseCase
 import com.company.kmp_test.base.BaseViewModel
-import com.company.kmp_test.state.PostIntent
-import com.company.kmp_test.state.PostSideEffect
-import com.company.kmp_test.state.PostState
+import com.company.kmp_test.state.TestIntent
+import com.company.kmp_test.state.TestSideEffect
+import com.company.kmp_test.state.TestState
 import kotlinx.coroutines.launch
 
 /**
@@ -15,21 +14,21 @@ import kotlinx.coroutines.launch
  */
 class MainViewModel(
     private val getNameUseCase: GetNameUseCase
-) : BaseViewModel<PostState, PostIntent, PostSideEffect>(
-    PostState.init()
+) : BaseViewModel<TestState, TestIntent, TestSideEffect>(
+    TestState.init()
 ) {
-    override fun handleIntent(intent: PostIntent) {
-        viewModelScope.launch {
+    override fun handleIntent(intent: TestIntent) {
+        scope.launch {
             when(intent) {
-                PostIntent.OnClick -> {
+                TestIntent.OnClick -> {
                     reduce { copy(isLoading = true) }
                     try {
                         val name = getNameUseCase()
                         reduce { copy(getName = name, isLoading = false) }
-                        postSideEffect { PostSideEffect.ShowToast("Success") }
+                        postSideEffect { TestSideEffect.ShowToast("Success") }
                     } catch(e: Exception) {
-                        postSideEffect { PostSideEffect.ShowErrorToast }
                         reduce { copy(isLoading = false) }
+                        postSideEffect { TestSideEffect.ShowErrorToast }
                     }
                 }
             }
