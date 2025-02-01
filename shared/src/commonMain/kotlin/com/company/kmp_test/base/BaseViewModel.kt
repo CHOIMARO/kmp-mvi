@@ -2,77 +2,35 @@ package com.company.kmp_test.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.company.kmp_test.store.Action
+import com.company.kmp_test.store.Effect
+import com.company.kmp_test.store.State
+import com.company.kmp_test.store.Store
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
+import org.koin.core.component.KoinComponent
 
 /**
  * @author maro
  * @since 2025. 1. 28.
  */
 
-/**
- * 뷰의 현재 상태
- */
-abstract class UiState
+abstract class BaseViewModel<S: State, A : Action, E: Effect, ST : Store<S, A, E>>() : ViewModel(), KoinComponent {
+    protected abstract val store: ST
 
-/**
- * 사용자의 액션
- */
-abstract class UiIntent
+    fun observeState(): StateFlow<S> = store.observeState()
+    fun observeEffect(): SharedFlow<E> = store.observeEffect()
+    fun dispatch(action: A): Unit = store.dispatch(action)
 
-/**
- * 화면 이동, 로깅, 에러메시지 등과 같은 SideEffect
- */
-abstract class UiSideEffect
-
-abstract class BaseViewModel<State: UiState, Intent: UiIntent, SideEffect: UiSideEffect>(
-    initialState: State
-) : ViewModel() {
-    val currentState: State
-        get() = uiState.value
-
-    private val _uiState: MutableStateFlow<State> = MutableStateFlow(initialState)
-    val uiState: StateFlow<State>
-        get() = _uiState.asStateFlow()
-
-    private val _intent: MutableSharedFlow<Intent> = MutableSharedFlow()
-    val intent = _intent.asSharedFlow()
-
-    private val _sideEffect: Channel<SideEffect> = Channel()
-    val sideEffect = _sideEffect.receiveAsFlow()
-
-    init {
-        subscribeIntent()
+    override fun onCleared() {
+        super.onCleared()
+        store.clear()
     }
-    /**
-     * State 설정
-     */
-    fun reduce(reducer: State.() -> State) { _uiState.value = currentState.reducer() }
-
-    /**
-     * Intent 설정
-     */
-    fun postIntent(intent: Intent) = viewModelScope.launch { _intent.emit(intent) }
-
-    /**
-     * SideEffect 설정
-     */
-    fun postSideEffect(builder: () -> SideEffect) = viewModelScope.launch { _sideEffect.send(builder()) }
-
-    /**
-     * Intent 구독
-     */
-    private fun subscribeIntent() = viewModelScope.launch {
-        intent.collect { handleIntent(it) }
-    }
-    /**
-     * Intent 핸들러
-     */
-    abstract fun handleIntent(intent: Intent)
 }

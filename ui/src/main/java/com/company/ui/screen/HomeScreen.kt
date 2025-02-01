@@ -16,9 +16,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.company.kmp_test.state.PostIntent
-import com.company.kmp_test.state.PostSideEffect
+import com.company.kmp_test.store.TestAction
+import com.company.kmp_test.store.TestSideEffect
 import com.company.kmp_test.viewmodel.MainViewModel
+import org.koin.androidx.compose.koinViewModel
 
 /**
  * @author maro
@@ -26,13 +27,13 @@ import com.company.kmp_test.viewmodel.MainViewModel
  */
 
 @Composable
-fun HomeScreen(viewModel: MainViewModel) {
-    val state by viewModel.uiState.collectAsStateWithLifecycle()
+fun HomeScreen(viewModel: MainViewModel = koinViewModel()) {
+    val state by viewModel.observeState().collectAsStateWithLifecycle()
     LaunchedEffect(Unit) {
-        viewModel.sideEffect.collect { effect ->
+        viewModel.observeEffect().collect { effect ->
             when(effect) {
-                PostSideEffect.ShowErrorToast -> Log.e(">>>>>", "ERROR")
-                is PostSideEffect.ShowToast -> Log.e(">>>>>", effect.message)
+                TestSideEffect.ShowErrorToast -> Log.e(">>>>>", "ERROR")
+                is TestSideEffect.ShowToast -> Log.e(">>>>>", effect.message)
             }
         }
     }
@@ -43,7 +44,7 @@ fun HomeScreen(viewModel: MainViewModel) {
         } else {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Button(onClick = {
-                    viewModel.handleIntent(PostIntent.OnClick)
+                    viewModel.dispatch(TestAction.OnClick)
                 }) {
                     Text("Click me")
                 }

@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import com.company.kmp_test.viewmodel.MainViewModel
 import com.company.ui.screen.HomeScreen
 import com.company.ui.theme.MyApplicationTheme
+import org.koin.androidx.compose.koinViewModel
 
 /**
  * @author maro
@@ -15,13 +16,13 @@ import com.company.ui.theme.MyApplicationTheme
  */
 
 @Composable
-fun App(viewModel: MainViewModel) {
+fun App() {
     MyApplicationTheme {
         Surface(
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colorScheme.background
         ) {
-            HomeScreen(viewModel)
+            HomeScreen()
         }
     }
 }

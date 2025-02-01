@@ -16,9 +16,8 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val viewModel: MainViewModel = getViewModel()
         setContent {
-            App(viewModel)
+            App()
         }
     }
 }

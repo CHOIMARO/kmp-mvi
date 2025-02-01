@@ -1,5 +1,6 @@
 package com.company.kmp_test.di
 
+import com.company.kmp_test.store.StoreFactory
 import com.company.kmp_test.viewmodel.MainViewModel
 import org.koin.core.module.Module
 import org.koin.core.module.dsl.singleOf
@@ -14,5 +15,9 @@ import org.koin.dsl.module
 expect val platformModule: Module
 
 val sharedModule = module {
-    viewModel { MainViewModel(get()) }
+    // ViewModels
+    viewModel { MainViewModel() }
+
+    // Stores
+    single { StoreFactory.makeTestStore() }
 }
